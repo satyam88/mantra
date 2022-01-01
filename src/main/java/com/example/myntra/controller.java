@@ -11,4 +11,13 @@ public class controller {
         return "Welcome to Myntra, Happy New Year 2022, Now You can shop !";
     }
 
+    @GetMapping("/mens")
+    public String index1() {
+        return "Welcome to Mens Dressing :) , Happy New Year 2022, Now You can shop !";
+    }
+
+    @GetMapping("/women")
+    public String index2() {
+        return "Welcome to Womens Dressing :) , Happy New Year 2022, Now You can shop !";
+    }
 }
