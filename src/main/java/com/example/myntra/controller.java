@@ -20,4 +20,10 @@ public class controller {
     public String index2() {
         return "Welcome to Womens Dressing :) , Happy New Year 2022, Now You can shop !";
     }
+
+    @GetMapping("/children")
+    public String index2() {
+        return "Welcome to children Dressing :) , Happy New Year 2022, Now You can shop !";
+    }
+
 }
