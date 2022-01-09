@@ -22,7 +22,7 @@ public class controller {
     }
 
     @GetMapping("/children")
-    public String index2() {
+    public String index3() {
         return "Welcome to children Dressing :) , Happy New Year 2022, Now You can shop !";
     }
 
