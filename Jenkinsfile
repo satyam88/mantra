@@ -27,7 +27,7 @@
             }
             stage('Code Package') {
                 steps {
-                    sh 'mvn clean package'
+                    sh 'mvn clean packge'
                 }
             }
             stage('Check java version') {
