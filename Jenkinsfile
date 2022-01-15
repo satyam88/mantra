@@ -35,5 +35,30 @@
                     sh 'java -version'
                 }
             }
+            stage('create docker image') {
+                steps {
+                    sh 'java -version'
+                }
+            }
+            stage('Tag docker image') {
+                steps {
+                    sh 'java -version'
+                }
+            }
+            stage('Push docker image to docker hub') {
+                steps {
+                    sh 'java -version'
+                }
+            }
+            stage('Push docker image to AWS ECR ') {
+                steps {
+                    sh 'java -version'
+                }
+            }
+            stage('COnnect to Cluster & Deploy App in Dev') {
+                steps {
+                    sh 'java -version'
+                }
+            }
     }
 }
