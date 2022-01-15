@@ -3,7 +3,7 @@
         options {
             buildDiscarder(logRotator(numToKeepStr: '5', artifactNumToKeepStr: '5'))
         }
-        agent any
+        agent java_based_linux_agent
 
         tools {
             maven 'mymaven_3.6'
