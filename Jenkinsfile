@@ -10,6 +10,11 @@
         }
 
         stages {
+            stage('Code Validate') {
+                steps {
+                    sh 'mvn clean validate'
+                }
+            }
             stage('Code Compilation') {
                 steps {
                     sh 'mvn clean compile'
@@ -23,6 +28,11 @@
             stage('Code Package') {
                 steps {
                     sh 'mvn clean package'
+                }
+            }
+            stage('Check java version') {
+                steps {
+                    sh 'java -version'
                 }
             }
     }
